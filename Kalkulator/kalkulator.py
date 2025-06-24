@@ -16,7 +16,7 @@ def hitung_jarak(x1, y1, x2, y2):
     return math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
 # Judul aplikasi
-st.title("📏 Kalkulator Jarak antara Dua Titik (Koordinat Kartesius)")
+st.header("📏 Kalkulator Jarak antara Dua Titik (Koordinat Kartesius)")
 
 st.markdown("Masukkan koordinat titik pertama dan kedua:")
 
