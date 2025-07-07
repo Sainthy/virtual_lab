@@ -17,7 +17,7 @@ Pastikan jumlah **kolom Matriks A** sama dengan jumlah **baris Matriks B** agar 
 # Input ukuran matriks dari sidebar
 st.sidebar.header("🔢 Ukuran Matriks")
 baris_a = st.sidebar.number_input("Jumlah Baris Matriks A", min_value=1, max_value=5, value=2)
-kolom_a = st.sidebar.number_input("Jumlah Kolom Matriks A", min_value=1, max_value=5, value=2)
+kolom_a = st.sidebar.number_input("Jumlah Kolom Matriks A/ Barismatriks B", min_value=1, max_value=5, value=2)
 baris_b = kolom_a  # Syarat agar matriks bisa dikalikan
 kolom_b = st.sidebar.number_input("Jumlah Kolom Matriks B", min_value=1, max_value=5, value=2)
 
